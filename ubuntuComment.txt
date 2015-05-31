@@ -10,3 +10,9 @@ http://askubuntu.com/a/403348
 XDebug Install:
 http://xdebug.org/docs/install
 http://stackoverflow.com/a/18059821/622864
+
+Code Climate:
+codeclimate.com
+
+Travis CI:
+travis-ci.org
