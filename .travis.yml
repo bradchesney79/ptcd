@@ -16,4 +16,4 @@ script:
 
 after_script:
  - CODECLIMATE_REPO_TOKEN="866c690a4295ea01f73a3da05860665841b6813d2c42cd988217e637e38ba33a" vendor/bin/test-reporter --stdout > codeclimate.json
- - "sh -c 'if [ \"$TRAVIS_PHP_VERSION\" != \"hhvm\" ]; then curl -X POST -d @codeclimate.jason -H \"Content-Type: application/json\" -H \"User-Agent: Code Climate (PHP Test Reporter v0.1.1)\" https://codeclimate.com/test_reports ; fi'"
+ - "sh -c 'if [ \"$TRAVIS_PHP_VERSION\" != \"hhvm\" ]; then curl -X POST -d @codeclimate.json -H \"Content-Type: application/json\" -H \"User-Agent: Code Climate (PHP Test Reporter v0.1.1)\" https://codeclimate.com/test_reports ; fi'"
